@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest manifest-version="0.1" xmlns="http://www.tableau.com/xml/extension_manifest">
+  <dashboard-extension id="com.exportall.extension" extension-version="2.3.1">
+    <default-locale>en_US</default-locale>
+    <name resource-id="name"/>
+    <description>Export Summary Data to Excel</description>
+    <author name="Sanith Dhanpal" email="dhanpalsanith@gmail.com"  organization="The Astraverse Corp" website="https://sanithdhanpal.github.io" />
+    <min-api-version>1.0</min-api-version>
+    <source-location>
+      <url> http://localhost:3000/sanithdhanpal/Tableau-Extension-ExportAll-master</url>
+    </source-location>
+    <icon>iVBORw0KGgoAAAANSUhEUgAAAMAAAADAAgMAAAAvsoSUAAAACVBMVEUAAAAAAAAAAACDY+nAAAAAA3RSTlMA/4CE6rqMAAAAoUlEQVR4Ae3PoRUCMQDAUN65DnIj9R6SUViCfcFGpXXwSHzEv1VV/UbzU0NDQ8NqDQ0NDQ0NDQ0NDQ2viS4dTg53HQaHhw4Hh+cmggRHkOAIEhxBgiNIcAQJjiDBESQ4ggRHkOAIEHYQJDiCBEeQ4AgSHEGCI0hwBAirCBIcQYIjSHAECd4AYQ1BgiNI8E4SvEGCd2wQqmpKDQ3/NFRVfUlvNddxSLdUkP4AAAAASUVORK5CYII=</icon>
+    <context-menu>
+      <configure-context-menu-item />
+    </context-menu>
+  </dashboard-extension>
+  <resources>
+    <resource id="name">
+      <text locale="en_US">Export All</text>
+    </resource>
+  </resources>
+</manifest>
